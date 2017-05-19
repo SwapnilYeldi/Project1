@@ -48,5 +48,7 @@ public class ProductDaoImpl implements ProductDao {
 		session.flush();
 		session.close();
 	}
+	
+
 
 }

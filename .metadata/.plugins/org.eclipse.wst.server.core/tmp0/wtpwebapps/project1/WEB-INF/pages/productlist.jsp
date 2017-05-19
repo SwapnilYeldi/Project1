@@ -21,6 +21,8 @@
 
 		<c:forEach items="${products}" var="p">
 			<tr>
+			<url:url value="/resources/images/${p.id }.png" var="url"></url:url>
+<td><img src="${url }" height="50" width="50" ></td>
 				<td>${p.name}</td>
 				<td>${p.price }</td>
 				<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
