@@ -37,15 +37,28 @@ public class ProductController {
 		model.addAttribute("categorydetails",categoryDetails);
 		return "productform";
 	}
+	
+
+	//input is id
+	//output is Product object
+	@RequestMapping("/admin/product/editproduct/{id}")
+	public String editProduct(@PathVariable int id,Model model){
+		Product product=productService.getProductById(id);
+		//[product attribute - [4,'Toy','descr','mnat',7800,12,..]
+		model.addAttribute("product",product);
+		List<Category> categoryDetails=categoryService.getAllCategories();
+		model.addAttribute("categorydetails",categoryDetails);
+		return "productform";
+	}
 
 	@RequestMapping("admin/product/saveproduct")
-	public String saveProduct(@Valid @ModelAttribute(name="product") Product product,BindingResult result){
+	public String saveOrUpdateProduct(@Valid @ModelAttribute(name="product") Product product,BindingResult result){
 		if(result.hasErrors()){
 			System.out.println("HAS ERRORS");
 			return "productform";
 		}
 		System.out.println("After validation");
-		productService.saveProduct(product);
+		productService.saveOrUpdateProduct(product);
 		
 		MultipartFile image=product.getImage();
 		if(image!=null && !image.isEmpty()){
@@ -74,6 +87,8 @@ public class ProductController {
 		model.addAttribute("products", products);
 		return "productlist";
 	}
+	
+	
 
 	// http://localhost:8080/proje/all/product/viewproduct/1
 	@RequestMapping("/all/product/viewproduct/{id}")

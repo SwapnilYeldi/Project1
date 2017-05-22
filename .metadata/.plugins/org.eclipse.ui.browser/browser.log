@@ -8,3 +8,28 @@ May 12, 2017 20:55:34.71 [Child 6752] WARNING: pipe error: 109: file c:/builds/m
 May 12, 2017 20:55:35.32 
 May 12, 2017 20:55:35.32 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 May 12, 2017 20:55:35.32 
+
+May 20, 2017 16:10:43.05 NEW SESSION
+May 20, 2017 16:10:43.05 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 20, 2017 16:10:46.23 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 20, 2017 16:17:17.15 1495277237153	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+May 20, 2017 16:17:17.18 1495277237183	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+May 20, 2017 16:17:17.21 1495277237211	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+May 20, 2017 16:17:17.23 1495277237234	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+May 20, 2017 16:17:18.85 1495277238853	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+May 20, 2017 16:19:17.33 1495277357335	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+May 20, 2017 16:21:13.81 1495277473825	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+May 20, 2017 16:40:37.87 [Child 5632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 20, 2017 16:40:38.37 [GPU 5536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 20, 2017 16:40:38.40 
+May 20, 2017 16:40:38.42 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 20, 2017 16:40:38.42 
+
+May 22, 2017 10:23:48.44 NEW SESSION
+May 22, 2017 10:23:48.44 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 22, 2017 10:23:50.14 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 22, 2017 10:29:44.18 [Child 3344] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 22, 2017 10:29:44.52 [GPU 6632] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 22, 2017 10:29:44.54 
+May 22, 2017 10:29:44.54 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 22, 2017 10:29:44.54 

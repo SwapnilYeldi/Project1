@@ -25,7 +25,7 @@
 	rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<button type="button" class="navbar-toggle collapsed"
 			data-toggle="collapse" data-target="#collapse-example"
@@ -36,7 +36,7 @@
 		<div class="navbar-header">
 
 			<a class="navbar-brand" href="#"><img
-				src="resources/images/gogreen2.png" alt="NIIT" height="50px"
+				src="/resources/images/igg.jpg" alt="NIIT" height="50px"
 				width="50px"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="collapse-example">
@@ -50,7 +50,7 @@
 				
 				
 				
-           <url:url value="admin/product/productform" var="url"></url:url>
+           <url:url value="/admin/product/productform" var="url"></url:url>
 				<li><a href="${url }">Add Product</a></li>
 
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
