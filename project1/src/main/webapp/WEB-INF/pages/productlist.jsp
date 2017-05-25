@@ -7,37 +7,48 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+	
 <title>Product list</title>
 </head>
 <body>
 	<div class="container">
 
-		<table>
-			<tr>
-				<th>Product Name</th>
-				<th>Price</th>
-				<th>Action</th>
-			</tr>
+		
+			 <table class="table table-bordered">
+				<thead>
+					<tr>
+        <th>Image</th>
+        <th>Manufacturer</th>
+        <th>Price</th>
+        <th>Info</th>
+        <th>Edit</th>
+        <th>Delete</th>
+        
+      </tr>
 
-			<c:forEach items="${products}" var="p">
-				<tr>
-					<url:url value="/resources/images/${p.id }.png" var="url"></url:url>
-					<td><img src="${url }" height="50" width="50"></td>
-					<td>${p.name}</td>
-					<td>${p.price }</td>
-					<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
-					<td><a href="${url }"><span
-							class="glyphicon glyphicon-info-sign"></span></a></td>
+					<c:forEach items="${products}" var="p">
 
-					<url:url value="/admin/product/editproduct/${p.id }" var="url2"></url:url>
-					<td><a href="${url2 }"><span
-							class="glyphicon glyphicon-pencil"></span></a> <url:url
-							value="/admin/product/deleteproduct/${p.id }" var="url1"></url:url>
-					<td><a href="${url1 }"><span
-							class="glyphicon glyphicon-trash"></span></a></td>
-				</tr>
-			</c:forEach>
-		</table>
+						<tr>
+							<url:url value="/resources/images/${p.id }.png" var="url"></url:url>
+							<td><img src="${url }" height="50" width="50"></td>
+							<td>${p.name}</td>
+							<td>${p.price }</td>
+							<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
+							<td><a href="${url }"><span
+									class="glyphicon glyphicon-info-sign"></span></a></td>
+
+							<url:url value="/admin/product/editproduct/${p.id }" var="url2"></url:url>
+							<td><a href="${url2 }"><span
+									class="glyphicon glyphicon-pencil"></span></a> <url:url
+									value="/admin/product/deleteproduct/${p.id }" var="url1"></url:url>
+							<td><a href="${url1 }"><span
+									class="glyphicon glyphicon-trash"></span></a></td>
+						</tr>
+					</c:forEach>
+				</thead>
+			</table>
 	</div>
 </body>
 <%@ include file="Footer.jsp"%>

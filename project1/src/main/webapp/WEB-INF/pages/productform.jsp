@@ -9,6 +9,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+
+	
 <title>ProductForm</title>
 </head>
 <body>
@@ -28,19 +31,19 @@
 
 				<div class="form-group">
 					<label for="name">Product Name</label>
-					<form:input path="name" placeholder="Enter Product Name"></form:input>
+					<form:input path="name" placeholder="Enter Product Name" class="form-control"></form:input>
 					<form:errors path="name" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="description">Enter Description</label>
-					<form:input path="description" placeholder="Description"></form:input>
+					<form:input path="description" placeholder="Description" class="form-control"></form:input>
 					<form:errors path="description" cssStyle="color:red"></form:errors>
 				</div>
 
 				<div class="form-group">
 					<label for="manufacturer">Product Manufacturer</label>
-					<form:input path="manufacturer" placeholder="Enter Manufacturer"></form:input>
+					<form:input path="manufacturer" placeholder="Enter Manufacturer" class="form-control"></form:input>
 					<form:errors path="manufacturer" cssStyle="color:red"></form:errors>
 
 				</div>
@@ -48,7 +51,7 @@
 
 				<div class="form-group">
 					<label for="price">Product Price</label>
-					<form:input path="price"></form:input>
+					<form:input path="price" class="form-control"></form:input>
 					<form:errors path="price" cssStyle="color:red"></form:errors>
 
 				</div>
@@ -56,7 +59,7 @@
 
 				<div class="form-group">
 					<label for="unitInStock">Unit In Stock</label>
-					<form:input path="unitInStock"></form:input>
+					<form:input path="unitInStock" class="form-control"></form:input>
 					<form:errors path="unitInStock" cssStyle="color:red"></form:errors>
 
 
@@ -80,6 +83,7 @@
 
 
 				<input type="submit" value="[Add/Edit] Product">
+				
 
 			</form:form>
 

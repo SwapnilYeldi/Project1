@@ -7,22 +7,10 @@
 <html lang="en">
 <head>
 <title>Header</title>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<script type="text/javascript"
-	src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
-<script type="text/javascript"
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<link
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-	rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -35,12 +23,15 @@
 		</button>
 		<div class="navbar-header">
 
+
+<url:url value="/resources/images/igg.jpg" var="url3"></url:url>	
 			<a class="navbar-brand" href="#"><img
-				src="/resources/images/igg.jpg" alt="NIIT" height="50px"
+				src= "${url3 }" alt="NIIT" height="50px"
 				width="50px"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="collapse-example">
 			<ul class="nav navbar-nav">
+			
 			<url:url value="/homePage" var="url2"></url:url>	
 				<li class="active"><a href="${url2 }">Home<span
 						class="sr-only">You are in home page link</span></a></li>
@@ -52,6 +43,11 @@
 				
            <url:url value="/admin/product/productform" var="url"></url:url>
 				<li><a href="${url }">Add Product</a></li>
+				
+				 <url:url value="/all/product/productlist" var="url"></url:url>
+				<li><a href="${url }">Browse All Products</a></li>
+				
+				
 
 				<li class="dropdown"><a href="#" class="dropdown-toggle"
 					data-toggle="dropdown">dropdown<span class="caret"></span></a>

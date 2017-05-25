@@ -24,7 +24,7 @@ h1 {
 
 <h1>Hello World!
    
-   Go Green with Best Cycles
+   
 
 
 </h1>
