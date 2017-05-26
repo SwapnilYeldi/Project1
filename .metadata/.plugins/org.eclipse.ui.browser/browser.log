@@ -33,3 +33,14 @@ May 22, 2017 10:29:44.52 [GPU 6632] WARNING: pipe error: 109: file c:/builds/moz
 May 22, 2017 10:29:44.54 
 May 22, 2017 10:29:44.54 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 May 22, 2017 10:29:44.54 
+
+May 25, 2017 19:33:16.16 NEW SESSION
+May 25, 2017 19:33:16.16 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 25, 2017 19:33:19.88 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 25, 2017 19:40:30.59 [GPU 9412] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 25, 2017 21:06:46.87 [GPU 9412] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 25, 2017 21:06:47.12 [Child 13192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 25, 2017 21:06:47.61 [GPU 9412] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 25, 2017 21:06:47.66 
+May 25, 2017 21:06:47.66 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 25, 2017 21:06:47.66 

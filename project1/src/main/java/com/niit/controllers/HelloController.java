@@ -15,4 +15,9 @@ public class HelloController {
 	public String getComboPage() {
 		return "AboutUs";
 	}
+	
+	@RequestMapping("/login")
+	public String getLoginPage (){
+		return "login";
+	}
 }

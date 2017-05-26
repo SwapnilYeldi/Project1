@@ -44,8 +44,9 @@
            <url:url value="/admin/product/productform" var="url"></url:url>
 				<li><a href="${url }">Add Product</a></li>
 				
-				 <url:url value="/all/product/productlist" var="url"></url:url>
-				<li><a href="${url }">Browse All Products</a></li>
+				 <url:url value="/all/product/productlist" var="url7"></url:url>
+				<li><a href="${url7 }">Browse All Products</a></li>
+				
 				
 				
 
@@ -58,9 +59,12 @@
 					</ul></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#"><span class="glyphicon glyphicon-user"></span>
+			<url:url value="/all/register" var="url5"></url:url>
+				<li><a href="${url5 }"><span class="glyphicon glyphicon-user"></span>
 						Sign Up</a></li>
-				<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
+						
+			<url:url value="/login" var="url6"></url:url>
+				<li><a href="${url6 }"><span class="glyphicon glyphicon-log-in"></span>
 						Login</a></li>
 			</ul>
 			<form class="navbar-form navbar-right">

@@ -28,41 +28,47 @@
 					<form:hidden path="id"></form:hidden>
 					<form:errors path="id" cssStyle="color:red"></form:errors>
 				</div>
-
-				<div class="form-group">
+				<div class="row">
+				<div class="form-group col-xs-3">
 					<label for="name">Product Name</label>
 					<form:input path="name" placeholder="Enter Product Name" class="form-control"></form:input>
 					<form:errors path="name" cssStyle="color:red"></form:errors>
 				</div>
-
-				<div class="form-group">
+				</div>
+				
+				<div class="row">
+				<div class="form-group col-xs-3">
 					<label for="description">Enter Description</label>
 					<form:input path="description" placeholder="Description" class="form-control"></form:input>
 					<form:errors path="description" cssStyle="color:red"></form:errors>
 				</div>
-
-				<div class="form-group">
+				</div>
+				
+				<div class="row">
+				<div class="form-group col-xs-3">
 					<label for="manufacturer">Product Manufacturer</label>
 					<form:input path="manufacturer" placeholder="Enter Manufacturer" class="form-control"></form:input>
 					<form:errors path="manufacturer" cssStyle="color:red"></form:errors>
 
 				</div>
-
-
-				<div class="form-group">
+				</div>
+				
+				<div class="row">
+				<div class="form-group col-xs-3">
 					<label for="price">Product Price</label>
 					<form:input path="price" class="form-control"></form:input>
 					<form:errors path="price" cssStyle="color:red"></form:errors>
 
 				</div>
+				</div>
 
-
-				<div class="form-group">
+				<div class="row">
+				<div class="form-group col-xs-3">
 					<label for="unitInStock">Unit In Stock</label>
 					<form:input path="unitInStock" class="form-control"></form:input>
 					<form:errors path="unitInStock" cssStyle="color:red"></form:errors>
 
-
+				</div>
 				</div>
 
 
@@ -70,9 +76,10 @@
 					<label for="category">Select Category</label>
 					<c:forEach items="${categorydetails }" var="c">
 
-						<form:radiobutton path="category.cid" value="${c.cid }" />${c.categoryDetails }
+						<form:radiobutton path="category.cid" value="${c.cid }" />
+						${c.categoryDetails }
 
-</c:forEach>
+					</c:forEach>
 					<form:errors path="category" cssStyle="color:red"></form:errors>
 				</div>
 
@@ -82,7 +89,7 @@
 				</div>
 
 
-				<input type="submit" value="[Add/Edit] Product">
+				<input type="submit" class="btn btn-primary" value="[Add/Edit] Product">
 				
 
 			</form:form>
