@@ -44,3 +44,242 @@ May 25, 2017 21:06:47.61 [GPU 9412] WARNING: pipe error: 109: file c:/builds/moz
 May 25, 2017 21:06:47.66 
 May 25, 2017 21:06:47.66 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 May 25, 2017 21:06:47.66 
+
+May 26, 2017 13:16:17.61 NEW SESSION
+May 26, 2017 13:16:17.61 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 26, 2017 13:16:19.43 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 26, 2017 13:46:56.09 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 13:46:56.09 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 13:46:59.39 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 13:47:04.54 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 13:47:19.52 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 13:47:19.55 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 14:04:19.20 IPDL protocol error: Handler returned error code!
+May 26, 2017 14:04:19.20 
+May 26, 2017 14:04:19.20 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 26, 2017 14:04:19.20 
+May 26, 2017 14:04:30.50 IPDL protocol error: Handler returned error code!
+May 26, 2017 14:04:30.50 
+May 26, 2017 14:04:30.50 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 26, 2017 14:04:30.50 
+May 26, 2017 14:04:32.04 [GPU 10960] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 26, 2017 14:08:44.74 1495787924741	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+May 26, 2017 14:08:44.75 1495787924756	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+May 26, 2017 14:08:44.77 1495787924770	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+May 26, 2017 14:08:44.78 1495787924784	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+May 26, 2017 14:08:45.83 1495787925837	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+May 26, 2017 14:10:38.43 1495788038432	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+May 26, 2017 14:12:33.90 1495788153902	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+
+May 27, 2017 16:10:38.79 NEW SESSION
+May 27, 2017 16:10:38.79 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 27, 2017 16:10:41.57 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 27, 2017 16:12:20.45 [Child 8524] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 27, 2017 16:12:20.82 [GPU 7556] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 27, 2017 16:12:20.85 
+May 27, 2017 16:12:20.85 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 27, 2017 16:12:20.85 
+
+May 28, 2017 13:31:35.70 NEW SESSION
+May 28, 2017 13:31:35.70 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 28, 2017 13:31:39.42 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 28, 2017 13:31:54.41 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:37:55.70 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:37:55.70 
+May 28, 2017 13:37:55.70 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:37:55.70 
+May 28, 2017 13:37:58.63 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:38:01.56 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:38:01.56 
+May 28, 2017 13:38:01.56 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:38:01.58 
+May 28, 2017 13:38:02.47 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:38:04.62 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:38:04.62 
+May 28, 2017 13:38:04.62 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:38:04.62 
+May 28, 2017 13:38:05.91 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:38:56.64 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:38:56.64 
+May 28, 2017 13:38:56.64 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:38:56.64 
+May 28, 2017 13:38:57.66 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:39:39.10 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:39:39.10 
+May 28, 2017 13:39:39.10 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:39:39.10 
+May 28, 2017 13:39:40.41 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:40:19.48 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:40:19.48 
+May 28, 2017 13:40:19.48 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:40:19.48 
+May 28, 2017 13:40:20.43 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:40:47.29 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:40:47.29 
+May 28, 2017 13:40:47.29 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:40:47.29 
+May 28, 2017 13:40:48.43 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:41:20.26 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:41:20.26 
+May 28, 2017 13:41:20.26 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:41:20.26 
+May 28, 2017 13:41:21.51 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:41:43.91 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:41:43.91 
+May 28, 2017 13:41:43.91 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:41:43.91 
+May 28, 2017 13:41:45.15 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:42:06.23 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:42:06.23 
+May 28, 2017 13:42:06.23 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:42:06.23 
+May 28, 2017 13:42:07.41 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:42:37.34 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:42:37.34 
+May 28, 2017 13:42:37.34 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:42:37.34 
+May 28, 2017 13:42:39.31 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:42:56.35 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:42:56.35 
+May 28, 2017 13:42:56.35 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:42:56.35 
+May 28, 2017 13:42:56.42 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:42:58.07 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:42:58.07 
+May 28, 2017 13:42:58.07 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:42:58.07 
+May 28, 2017 13:42:59.20 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:43:22.09 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:43:22.09 
+May 28, 2017 13:43:22.09 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:43:22.09 
+May 28, 2017 13:43:23.46 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:43:47.23 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:43:47.23 
+May 28, 2017 13:43:47.23 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:43:47.23 
+May 28, 2017 13:43:48.73 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:44:54.16 IPDL protocol error: Handler returned error code!
+May 28, 2017 13:44:54.16 
+May 28, 2017 13:44:54.16 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 28, 2017 13:44:54.16 
+May 28, 2017 13:44:55.82 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:45:49.05 [GPU 11084] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:45:49.19 [Child 3452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:45:49.19 [Child 3452] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 28, 2017 13:45:49.67 
+May 28, 2017 13:45:49.67 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 28, 2017 13:45:49.67 
+
+May 29, 2017 11:38:19.16 NEW SESSION
+May 29, 2017 11:38:19.16 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 29, 2017 11:38:21.74 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 29, 2017 11:39:30.74 IPDL protocol error: Handler returned error code!
+May 29, 2017 11:39:30.74 
+May 29, 2017 11:39:30.74 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 29, 2017 11:39:30.74 
+May 29, 2017 11:40:20.61 IPDL protocol error: Handler returned error code!
+May 29, 2017 11:40:20.61 
+May 29, 2017 11:40:20.61 ###!!! [Parent][DispatchAsyncMessage] Error: PAPZCTreeManager::Msg_SetTargetAPZC Processing error: message was deserialized, but the handler returned false (indicating failure)
+May 29, 2017 11:40:20.61 
+May 29, 2017 11:40:21.94 [GPU 11544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 29, 2017 11:40:52.82 1496038252827	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+May 29, 2017 11:40:52.85 1496038252856	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+May 29, 2017 11:40:52.87 1496038252874	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+May 29, 2017 11:40:52.88 1496038252888	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+May 29, 2017 11:40:52.90 1496038252902	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+May 29, 2017 11:42:54.19 1496038374200	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+May 29, 2017 11:44:50.81 1496038490814	addons.xpi	WARN	Add-on web2pdfextension@web2pdf.adobedotcom is not correctly signed.
+May 29, 2017 13:18:51.76 [Parent 2108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 29, 2017 13:27:22.78 [GPU 11544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 29, 2017 13:29:52.92 [GPU 11544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 29, 2017 17:09:43.71 [GPU 11544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 29, 2017 17:09:43.71 [GPU 11544] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+May 29, 2017 17:09:44.13 
+May 29, 2017 17:09:44.13 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.14 
+May 29, 2017 17:09:44.15 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x800006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x800006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 
+May 29, 2017 17:09:44.15 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.16 
+May 29, 2017 17:09:44.16 
+May 29, 2017 17:09:44.16 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.16 
+May 29, 2017 17:09:44.16 
+May 29, 2017 17:09:44.16 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.16 
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 
+May 29, 2017 17:09:44.17 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.18 
+May 29, 2017 17:09:44.18 
+May 29, 2017 17:09:44.18 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400FA,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.18 
+May 29, 2017 17:09:44.18 
+May 29, 2017 17:09:44.18 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.18 
+May 29, 2017 17:09:44.20 
+May 29, 2017 17:09:44.20 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.20 
+May 29, 2017 17:09:44.20 
+May 29, 2017 17:09:44.20 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.20 
+May 29, 2017 17:09:44.20 
+May 29, 2017 17:09:44.20 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400A8,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+May 29, 2017 17:09:44.20 
+May 29, 2017 17:09:44.55 
+May 29, 2017 17:09:44.55 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+May 29, 2017 17:09:44.55 
+
+May 30, 2017 10:32:28.83 NEW SESSION
+May 30, 2017 10:32:28.83 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0
+May 30, 2017 10:32:31.21 [GFX1]: Potential driver version mismatch ignored due to missing DLLs 0.0.0.0 and 0.0.0.0

@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+body {
+	background-image:url("../images/veg-bk.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+footer {
+    
+    margin-top: 400px;
+   
+}
+
+h1 {
+    
+    margin-bottom: 50px;
+   
+}
+
+
+
+

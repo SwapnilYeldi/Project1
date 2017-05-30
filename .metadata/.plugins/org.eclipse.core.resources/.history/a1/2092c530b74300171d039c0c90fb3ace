@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image:(../images/veg-bk.jpg)
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
