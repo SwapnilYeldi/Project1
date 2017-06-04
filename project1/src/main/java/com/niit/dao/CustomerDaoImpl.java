@@ -5,6 +5,7 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -28,6 +29,7 @@ private SessionFactory sessionFactory;
 		authorities.setRole("ROLE_USER");
 		
 		Session session=sessionFactory.openSession();
+		Transaction transaction=session.beginTransaction();
 		session.save(authorities);//Authorities table //insert into authorities values (1,'john','ROLE_USER')
 		
 		Cart cart=new Cart();
@@ -35,6 +37,7 @@ private SessionFactory sessionFactory;
 		customer.setCart(cart);//update the cart_id in customer table
 		session.save(customer); // Users,Customer,BillingAddress,ShippingAddress,Cart
 		session.flush();
+		transaction.commit();
 		session.close();
 		
 		

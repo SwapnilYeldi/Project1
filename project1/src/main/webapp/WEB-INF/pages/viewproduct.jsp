@@ -35,9 +35,9 @@ p {
 		<p>
 			<!-- Showing Product Details -->
 			<url:url value="/resources/images/${id }.png" var="url"></url:url>
-			<img src="${url }" height="400"> <br> <td>PRODUCT NAME:
-			${product.name } </td><br> <td>PRICE : ${product.price } </td><br>
-			<td>MANUFACTURER: ${product.manufacturer } </td><br> <td>DESCRIPTION :
+			<img src="${url }" height="400"> <br> <td>
+			${product.name } </td><br> <td> ${product.price } </td><br>
+			<td> ${product.manufacturer } </td><br> <td>
 			${product.description } </td><Br>
 		</p>
 

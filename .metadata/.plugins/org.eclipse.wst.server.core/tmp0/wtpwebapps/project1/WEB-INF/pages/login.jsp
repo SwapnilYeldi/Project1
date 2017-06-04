@@ -11,7 +11,7 @@
 </head>
 <body>
 	<%@include file="Header.jsp"%>
-	<div class="container-fluid" style="margin-top: 50px;">
+	<div class="container-fluid" style="margin-top: 100px;">
 
 		${error } ${logout } ${registrationSuccess }
 		<form action="<c:url value="j_spring_security_check"></c:url>"
