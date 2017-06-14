@@ -38,10 +38,11 @@ footer {
 		style="margin-top: 50px;">
 
 		<!-- Indicators -->
-		<ol class="carousel-indicators">
+		<ol class="carousel-indicators" style="background-color: #000;">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
 
 		</ol>
 
@@ -65,7 +66,7 @@ footer {
 					</div>
 				</div>
 			</div>
-			<div class="item" height="850px" width="995px">
+			<div class="item">
 				<img class="third-slide home-image "
 					src="resources/images/bicy1.jpg"  "Thirdslide">
 				<div class="container" >
@@ -77,13 +78,11 @@ footer {
 			<div class="item">
 				<img class="fourth-slide home-image " src="resources/images/sf1.jpg" "Fourthslide">
 				<div class="container">
-					<div class="carousel-caption">
-						
+					<div class="carousel-caption">			
 
 					</div>
 				</div>
 			</div>
-
 
 		</div>
 		<a class="left carousel-control" href="#myCarousel" role="button"
@@ -95,7 +94,6 @@ footer {
 			class="sr-only">Next</span>
 		</a>
 	</div>
-
 
 	<div class="container text-center">
 		<h3>Why we used Helmet</h3>
@@ -123,13 +121,9 @@ footer {
 					src="//www.youtube.com/embed/2r_ZDvjHCA0"></iframe>
 			</div>
 
-			
-
 		</div>
 	</div>
 	<br>
-
-
 
 </body>
 

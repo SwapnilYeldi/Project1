@@ -51,4 +51,17 @@ private SessionFactory sessionFactory;
 		session.close();
 		return customers;
 	}
+
+
+	public Customer getCustomerByName(String name) {
+		Session session = sessionFactory.openSession();
+		Query query = session.createQuery("from Users where username='"+name+"'");
+		Users u=(Users)query.list().get(0);
+		System.out.println(u.getId());
+		Query query1 = session.createQuery("from Customer where user_id="+u.getId()+"");
+		Customer c=(Customer)query1.list().get(0);
+		System.out.println(c.getId());
+		return c;
+		
+	}
 }

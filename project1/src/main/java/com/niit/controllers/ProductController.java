@@ -91,8 +91,7 @@ public class ProductController {
 	}
 	
 	
-
-	// http://localhost:8080/proje/all/product/viewproduct/1
+	
 	@RequestMapping("/all/product/viewproduct/{id}")
 	public String viewProduct(@PathVariable int id, Model model) {
 		Product product = productService.getProductById(id);
@@ -110,8 +109,7 @@ public class ProductController {
 	public String getProductsByCategory(@RequestParam(name="searchCondition") String searchCondition,
 			Model model,HttpSession session){
 		session.setAttribute("categories",categoryService.getAllCategories());
-		List<Product> products=productService.getAllProducts();
-		//Assigning list of products to model attribute products
+		List<Product> products=productService.getAllProducts();	
 		model.addAttribute("products",products);
 		model.addAttribute("searchCondition",searchCondition);
 		return "productlist";

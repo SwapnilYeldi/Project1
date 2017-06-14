@@ -1,0 +1,30 @@
+package com.niit.model;
+
+public class CartItem {
+	private int CartItemId;
+	private int quantity;
+	private double totalPrice;
+	
+	
+	public int getCartItemId() {
+		return CartItemId;
+	}
+	public void setCartItemId(int cartItemId) {
+		CartItemId = cartItemId;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public double getTotalPrice() {
+		return totalPrice;
+	}
+	public void setTotalPrice(double totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+	
+	
+	
+}

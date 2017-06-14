@@ -14,9 +14,11 @@ public class Cart {
 	private int id;
 	
 	private double grandTotal;
+	
 	@OneToOne
 	@JoinColumn(name="customer_id")
 	private Customer customer;
+	
 	public int getId() {
 		return id;
 	}

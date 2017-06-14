@@ -1,13 +1,17 @@
 package com.niit.model;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Transient;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.web.multipart.MultipartFile;
@@ -24,14 +28,17 @@ public class Product {
 	private String manufacturer;
 	@Min(value=100, message="Minimum price should be 100")
 	private double price;
-	@Min(value=10, message="Minimum unit in stock should ba 10")
+	@Min(value=1, message="Minimum unit in stock should ba 1")
 	private int unitInStock;
 	@NotEmpty(message="Description is mandatory")
 	private String description;
 	@ManyToOne
 	@JoinColumn(name="cid")
-	
+	@NotNull(message = "Select catrgory it is mandatory")
 	private Category category;
+	
+	@OneToMany(mappedBy="product")
+	private List<CartItem> cartItem;
 	
 	@Transient
 	private MultipartFile image;
@@ -98,6 +105,14 @@ public class Product {
 
 	public void setImage(MultipartFile image) {
 		this.image = image;
+	}
+
+	public List<CartItem> getCartItem() {
+		return cartItem;
+	}
+
+	public void setCartItem(List<CartItem> cartItem) {
+		this.cartItem = cartItem;
 	}
 
 	

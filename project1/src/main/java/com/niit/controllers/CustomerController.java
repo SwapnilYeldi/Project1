@@ -26,12 +26,12 @@ public String getRegistrationForm(Model model){
 @RequestMapping("/all/register")
 public String registerCustomer(@Valid @ModelAttribute(name="customer") Customer customer,BindingResult result,Model model){
 	if(result.hasErrors())
-		return "registrationpage"; //nonempty values..
+		return "registrationpage"; 
 	List<Customer> customers= customerService.getCustomers();
 	String username=customer.getUsers().getUsername();
 	String email=customer.getEmail();
 	for(Customer c:customers){
-		//  data in users table               input
+		
 	   if(c.getUsers().getUsername().equals(username))
 	   {
 		   model.addAttribute("duplicateUsername","Username already exists");

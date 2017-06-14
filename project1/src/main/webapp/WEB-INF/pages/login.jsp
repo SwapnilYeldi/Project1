@@ -16,21 +16,22 @@
 		${error } ${logout } ${registrationSuccess }
 		<form action="<c:url value="j_spring_security_check"></c:url>"
 			method="post">
-			<div class="row">
+			<div class="row" style="font-weight: bold;">
 
 				<div class="form-group col-xs-3">
-					Enter username <input type="text" name="j_username"
-						class="form-control"><br> Enter password <input
+					Enter Username <input type="text" name="j_username"
+						class="form-control"><br> Enter Password <input
 						type="password" name="j_password" class="form-control"><br>
-					<div class="checkbox">
+					<!-- <div class="checkbox">
 						<label><input type="checkbox" name="remember">
 							Remember me</label>
-					</div>
+					</div> -->
 					<input type="submit" class="btn btn-primary" value="submit">
 				</div>
 			</div>
+		</form>
 	</div>
-	</form>
+
 
 </body>
 <%@include file="Footer.jsp"%>

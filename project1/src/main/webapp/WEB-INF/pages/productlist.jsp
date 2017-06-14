@@ -26,17 +26,15 @@
 <body>
 	<div class="container" style="margin-top: 90px;">
 
-
 		<table class="table table-bordered">
 			<thead>
 				<tr>
 					<th>Image</th>
 					<th>Product Name</th>
 					<th>Price</th>
+					<th>Unit in Stock</th>
 					<th>Category</th>
 					<th>Action</th>
-
-
 				</tr>
 			</thead>
 			<c:forEach items="${products}" var="p">
@@ -46,7 +44,9 @@
 					<td><img src="${url }" height="50" width="50"></td>
 					<td>${p.name}</td>
 					<td>${p.price }</td>
+					<td>${p.unitInStock }</td>
 					<td>${p.category.categoryDetails }</td>
+					
 					<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
 					<td><a href="${url }"><span
 							class="glyphicon glyphicon-info-sign"></span></a> <security:authorize

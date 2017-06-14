@@ -9,6 +9,7 @@
 	uri="http://www.springframework.org/security/tags"%>
 <html lang="en">
 <head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Header</title>
 
@@ -32,7 +33,7 @@
 	rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-fixed-top navbar-default">
+	<nav class="navbar navbar-fixed-top navbar-inverse">
 	<div class="container-fluid">
 		<button type="button" class="navbar-toggle collapsed"
 			data-toggle="collapse" data-target="#collapse-example"
@@ -41,7 +42,6 @@
 			<span class="icon-bar"></span> <span class="icon-bar"></span>
 		</button>
 		<div class="navbar-header">
-
 
 			<url:url value="/resources/images/igg.jpg" var="url3"></url:url>
 			<a class="navbar-brand" href="#"><img src="${url3 }" alt="HELMET"
@@ -57,16 +57,13 @@
 				<url:url value="/aboutus" var="url1"></url:url>
 				<li><a href="${url1 }">About Us</a></li>
 
-
 				<security:authorize access="hasRole('ROLE_ADMIN')">
-					<url:url value="/admin/product/productform" var="url"></url:url>
-					<li><a href="${url }">Add Product</a></li>
+					<url:url value="/admin/product/productform" var="url8"></url:url>
+					<li><a href="${url8 }">Add Product</a></li>
 				</security:authorize>
 
 				<url:url value="/all/product/productlist" var="url7"></url:url>
 				<li><a href="${url7 }">Browse All Products</a></li>
-
-
 
 
 				<li class="dropdown"><a href="" class="dropdown-toggle"
@@ -78,6 +75,12 @@
 									${c.categoryDetails }</a></li>
 						</c:forEach>
 					</ul></li>
+
+				<security:authorize access="hasRole('ROLE_USER')">
+					<url:url value="/cart/ViewCart" var="url9"></url:url>
+					<li><a href="${url9 }"><span
+							class="glyphicon glyphicon-shopping-cart"></span> <b>Cart</b></a></li>
+				</security:authorize>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<c:if test="${pageContext.request.userPrincipal.name!=null }">
@@ -100,11 +103,7 @@
 						href="<c:url value="/j_spring_security_logout"></c:url>"><span
 							class="glyphicon glyphicon-log-out"></span>logout</a></li>
 				</c:if>
-
 			</ul>
-
-
-
 		</div>
 	</div>
 	</nav>

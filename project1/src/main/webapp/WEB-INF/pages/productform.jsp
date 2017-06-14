@@ -94,10 +94,13 @@
 						name="image">
 				</div>
 
+				<c:if test="${product.id==0}">
+					<input type="submit" class="btn btn-primary" value="Add Product">
+				</c:if>
 
-				<input type="submit" class="btn btn-primary"
-					value="[Add/Edit] Product">
-
+				<c:if test="${product.id!=0}">
+					<input type="submit" class="btn btn-primary" value="Edit Product">
+				</c:if>
 
 			</form:form>
 

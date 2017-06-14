@@ -1,5 +1,8 @@
 package com.niit.model;
 
+import java.io.Serializable;
+import java.util.List;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,13 +10,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import javax.validation.Valid;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 @Entity
-public class Customer {
+public class Customer implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private int id;
@@ -41,7 +46,11 @@ public class Customer {
 
 	@OneToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name="cart_id")
+	@Valid
 	private Cart cart;
+	
+	@OneToMany(mappedBy="customer")
+	private List<CartItem> cartItem;
 
 	public int getId() {
 		return id;
@@ -113,6 +122,14 @@ public class Customer {
 
 	public void setCart(Cart cart) {
 		this.cart = cart;
+	}
+
+	public List<CartItem> getCartItem() {
+		return cartItem;
+	}
+
+	public void setCartItem(List<CartItem> cartItem) {
+		this.cartItem = cartItem;
 	}
 
 

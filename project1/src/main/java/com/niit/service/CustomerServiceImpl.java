@@ -20,4 +20,9 @@ private CustomerDao customerDao;
 	public List<Customer> getCustomers() {
 		return customerDao.getCustomers();
 	}
+	
+	public Customer getCustomerByName(String name) {
+		// TODO Auto-generated method stub
+		return customerDao.getCustomerByName(name);
+	}
 }
