@@ -6,6 +6,12 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
+<style type="text/css">
+th {
+	background-color: #000000;
+	color: white;
+}
+</style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Product list</title>
 
@@ -31,10 +37,11 @@
 				<tr>
 					<th>Image</th>
 					<th>Product Name</th>
+					<th>Product Manufacturer</th>
 					<th>Price</th>
 					<th>Unit in Stock</th>
 					<th>Category</th>
-					<th>Action</th>
+					<th>Info</th>
 				</tr>
 			</thead>
 			<c:forEach items="${products}" var="p">
@@ -43,10 +50,11 @@
 					<url:url value="/resources/images/${p.id }.png" var="url"></url:url>
 					<td><img src="${url }" height="50" width="50"></td>
 					<td>${p.name}</td>
+					<td>${p.manufacturer }</td>
 					<td>${p.price }</td>
 					<td>${p.unitInStock }</td>
 					<td>${p.category.categoryDetails }</td>
-					
+
 					<url:url value="/all/product/viewproduct/${p.id }" var="url"></url:url>
 					<td><a href="${url }"><span
 							class="glyphicon glyphicon-info-sign"></span></a> <security:authorize

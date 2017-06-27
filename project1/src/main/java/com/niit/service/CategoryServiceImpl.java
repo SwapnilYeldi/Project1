@@ -9,10 +9,11 @@ import com.niit.dao.CategoryDao;
 import com.niit.model.Category;
 
 @Service
-public class CategoryServiceImpl implements CategoryService{
+public class CategoryServiceImpl implements CategoryService {
 	@Autowired
-private CategoryDao categoryDao;
+	private CategoryDao categoryDao;
+
 	public List<Category> getAllCategories() {
 		return categoryDao.getAllCategories();
-}
+	}
 }

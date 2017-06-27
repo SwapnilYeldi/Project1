@@ -17,7 +17,16 @@ th {
 <body>
 	<%@ include file="Header.jsp"%>
 
+
 	<div class="container" style="margin-top: 80px">
+
+		<div class="content" align="right">
+			<fieldset>
+				<a href="${pageContext.request.contextPath}/memberShip.obj"
+					style="margin: 50;" class="btn btn-success">Check-out</a>
+			</fieldset>
+		</div>
+
 		<h1 align="center" style="color: blue;">
 			<b><u>Cart</u></b>
 		</h1>
@@ -62,15 +71,14 @@ th {
 
 				</tr>
 			</tbody>
-			
+
 		</table>
 	</div>
 
 	<div align="center">
 		<url:url value="/cart/deleteAllCartItem" var="url2"></url:url>
-		<a href="${url2 }" class="btn btn-primary" role="button">Remove
+		<a href="${url2 }" class="btn btn-primary" type="button">Remove
 			All Items</a>
 	</div>
-
 </body>
 </html>

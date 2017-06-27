@@ -4,5 +4,5 @@ import com.niit.model.Cart;
 
 public interface CartService {
 
-Cart getCartByCartId(int cartId);
+	Cart getCartByCartId(int cartId);
 }

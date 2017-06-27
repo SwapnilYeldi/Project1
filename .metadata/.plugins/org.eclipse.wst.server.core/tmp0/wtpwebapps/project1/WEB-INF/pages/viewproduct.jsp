@@ -10,7 +10,6 @@
 #para {
 	text-align: left;
 	font-size: 120%;
-	/*color: blue;*/
 }
 </style>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -43,20 +42,21 @@
 			<li>Product Price: ${product.price }</li>
 			<li>Product Manufacturer: ${product.manufacturer }</li>
 			<li>Product Discription: ${product.description }</li>
-			<div style="background-color: white; color: green">
-				<li><c:if test="${product.unitInStock>=1 }">
+			<li>
+				<div style="background-color: white; color: green">
+					<c:if test="${product.unitInStock>=1 }">
 						<p>
 							<big>In Stock</big>
 						</p>
 					</c:if>
-			</div>
+				</div>
 
-			<div style="background-color: white; color: red">
-				<c:if test="${product.unitInStock<=0 }">
-					<p>Stock: Out of Stock</p>
-				</c:if>
-				</li>
-			</div>
+				<div style="background-color: white; color: red">
+					<c:if test="${product.unitInStock<=0 }">
+						<p>Stock: Out of Stock</p>
+					</c:if>
+
+				</div>
 			</li>
 		</ul>
 

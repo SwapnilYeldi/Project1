@@ -46,7 +46,6 @@ div.boxed {
 			<url:url value="/all/register" var="url"></url:url>
 			<form:form action="${url }" modelAttribute="customer" method="post">
 				<div class="boxed" style="border: 1px solid">
-
 					<h3>Enter Personal Details</h3>
 					<div class="form-group">
 						<label for="id"></label>

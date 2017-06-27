@@ -17,36 +17,38 @@ import com.niit.service.CustomerService;
 @Controller
 public class CustomerController {
 	@Autowired
-private CustomerService customerService;
-@RequestMapping("/all/registrationform")
-public String getRegistrationForm(Model model){
-	model.addAttribute("customer",new Customer());
-	return "registrationpage";
-}
-@RequestMapping("/all/register")
-public String registerCustomer(@Valid @ModelAttribute(name="customer") Customer customer,BindingResult result,Model model){
-	if(result.hasErrors())
-		return "registrationpage"; 
-	List<Customer> customers= customerService.getCustomers();
-	String username=customer.getUsers().getUsername();
-	String email=customer.getEmail();
-	for(Customer c:customers){
-		
-	   if(c.getUsers().getUsername().equals(username))
-	   {
-		   model.addAttribute("duplicateUsername","Username already exists");
-		   return "registrationpage";
-	   }
+	private CustomerService customerService;
+
+	@RequestMapping("/all/registrationform")
+	public String getRegistrationForm(Model model) {
+		model.addAttribute("customer", new Customer());
+		return "registrationpage";
 	}
-	for(Customer c:customers){
-		   if(c.getEmail().equals(email))
-		   {
-			   model.addAttribute("duplicateEmail","EmailId already exists");
-			   return "registrationpage";
-		   }
+
+	@RequestMapping("/all/register")
+	public String registerCustomer(@Valid @ModelAttribute(name = "customer") Customer customer, BindingResult result,
+			Model model) {
+		if (result.hasErrors())
+			return "registrationpage";
+		List<Customer> customers = customerService.getCustomers();
+		String username = customer.getUsers().getUsername();
+		String email = customer.getEmail();
+		for (Customer c : customers) {
+
+			if (c.getUsers().getUsername().equals(username)) {
+				model.addAttribute("duplicateUsername", "Username already exists");
+				return "registrationpage";
+			}
 		}
-	customerService.saveCustomer(customer);
-	
-	return "login";
-}
+		for (Customer c : customers) {
+			if (c.getEmail().equals(email)) {
+				model.addAttribute("duplicateEmail", "EmailId already exists");
+				return "registrationpage";
+			}
+		}
+		customerService.saveCustomer(customer);
+
+		return "login";
+	}
+
 }

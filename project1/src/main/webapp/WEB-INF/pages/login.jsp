@@ -13,7 +13,9 @@
 	<%@include file="Header.jsp"%>
 	<div class="container-fluid" style="margin-top: 100px;">
 
-		${error } ${logout } ${registrationSuccess }
+		${error }
+		<div style="color: green">${logout }</div>
+		${registrationSuccess }
 		<form action="<c:url value="j_spring_security_check"></c:url>"
 			method="post">
 			<div class="row" style="font-weight: bold;">

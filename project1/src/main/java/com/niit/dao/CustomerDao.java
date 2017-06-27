@@ -5,9 +5,9 @@ import java.util.List;
 import com.niit.model.Customer;
 
 public interface CustomerDao {
-void saveCustomer(Customer customer);
+	void saveCustomer(Customer customer);
 
-List<Customer> getCustomers();//duplicate username and email
+	List<Customer> getCustomers();// duplicate username and email
 
-Customer getCustomerByName(String name);
+	Customer getCustomerByName(String name);
 }

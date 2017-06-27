@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;project1/src/main/webapp/WEB-INF/memberShipFlow.xml&apos; to &apos;cartFlow.xml&apos;" description="Rename resource &apos;memberShipFlow.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/WEB-INF/memberShipFlow.xml" name="cartFlow.xml" stamp="1498122481624" updateReferences="true"/>
+</session>

@@ -16,33 +16,11 @@ public class CartItemServiceImpl implements CartItemService {
 
 	@Autowired
 	private CartItemDao cartItemDao;
-	
-	/*public void addCartItem(CartItem cartItem) {
-		
-		cartItemDao.addCartItem(cartItem);		
-	}*/
 
-/*
-	public void removeCartItem(int cartItemId) {
-		
-		cartItemDao.removeCartItem(cartItemId);
-	
-	
-	}
-
-
-	public void removeAllCartItems(Cart cart) {
-		cartItemDao.removeAllCartItem(cart);
-		
-	}*/
-
-
-	
 	public void addCartItem(Product product, Customer id) {
-		cartItemDao.addCartItem(product,id);
-		
-	}
+		cartItemDao.addCartItem(product, id);
 
+	}
 
 	public List<CartItem> getAllCartItem() {
 		return cartItemDao.getAllCartItem();
@@ -50,22 +28,16 @@ public class CartItemServiceImpl implements CartItemService {
 
 	public void deleteCartItem(int id) {
 		cartItemDao.removeCartItem(id);
-		
+
 	}
 
-
-	
 	public void removeAllCartItem() {
 		cartItemDao.removeAllCartItem();
-		
-	}
 
+	}
 
 	public List<CartItem> getAllCartItemById(Customer id1) {
-		// TODO Auto-generated method stub
 		return cartItemDao.getAllItemById(id1);
 	}
-	
-	
 
 }

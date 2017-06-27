@@ -27,7 +27,6 @@ footer {
 	.carousel-caption {
 		display: none;
 	}
-	
 }
 </style>
 </head>
@@ -49,38 +48,32 @@ footer {
 
 		<div class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img class="first-slide home-image" src="resources/images/v3.jpg" "firstslide">
+				<img class="first-slide home-image" src="resources/images/v3.jpg""firstslide">
 				<div class="container">
 					<div class="carousel-caption">
-						<h1 style="color:black">WELCOME TO THE HELMET STORE</h1>
-						<p style="color:black">Here You Can Browse And Buy Helmets.Order Now For Your
-							Amazing New Arrivals</p>
+						<h1 style="color: black">WELCOME TO THE HELMET STORE</h1>
+						<p style="color: black">Here You Can Browse And Buy
+							Helmets.Order Now For Your Amazing New Arrivals</p>
 					</div>
 				</div>
 			</div>
 			<div class="item">
-				<img class="second-slide home-image" src="resources/images/std4.jpg" "Secondslide" >
+				<img class="second-slide home-image" src="resources/images/std4.jpg""Secondslide" >
 				<div class="container">
-					<div class="carousel-caption">
-			
-					</div>
+					<div class="carousel-caption"></div>
 				</div>
 			</div>
 			<div class="item">
 				<img class="third-slide home-image "
-					src="resources/images/bicy1.jpg"  "Thirdslide">
-				<div class="container" >
-					<div class="carousel-caption">
-						
-					</div>
+					src="resources/images/bicy1.jpg""Thirdslide">
+				<div class="container">
+					<div class="carousel-caption"></div>
 				</div>
 			</div>
 			<div class="item">
-				<img class="fourth-slide home-image " src="resources/images/sf1.jpg" "Fourthslide">
+				<img class="fourth-slide home-image " src="resources/images/sf1.jpg""Fourthslide">
 				<div class="container">
-					<div class="carousel-caption">			
-
-					</div>
+					<div class="carousel-caption"></div>
 				</div>
 			</div>
 
@@ -104,15 +97,14 @@ footer {
 					src="//www.youtube.com/embed/OIBTRGyv9y0"></iframe>
 
 			</div>
-			
+
 			<div class="col-sm-4">
-				<div class="well" style="background-color:orange;color:black">
+				<div class="well" style="background-color: orange; color: black">
 					<p>If you got a head, u need a helmet!</p>
 				</div>
-				<div class="well" style="background-color:orange;color:black">
-					<p>When you can protect your phone with a case
-					   Why don't you protect your life with a helmet?					
-					</p>
+				<div class="well" style="background-color: orange; color: black">
+					<p>When you can protect your phone with a case Why don't you
+						protect your life with a helmet?</p>
 				</div>
 			</div>
 

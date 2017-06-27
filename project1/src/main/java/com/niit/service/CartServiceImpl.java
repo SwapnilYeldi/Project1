@@ -6,19 +6,16 @@ import org.springframework.stereotype.Service;
 import com.niit.dao.CartDao;
 import com.niit.model.Cart;
 
-
 @Service
 public class CartServiceImpl implements CartService {
 
 	@Autowired
 	private CartDao cartDao;
-	
-	
+
 	public Cart getCartByCartId(int cartId) {
-		
-		
+
 		return cartDao.getCartByCartId(cartId);
-		
+
 	}
 
 }

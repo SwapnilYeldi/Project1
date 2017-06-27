@@ -5,9 +5,9 @@ import java.util.List;
 import com.niit.model.Customer;
 
 public interface CustomerService {
-void saveCustomer(Customer customer);
+	void saveCustomer(Customer customer);
 
-List<Customer> getCustomers();
+	List<Customer> getCustomers();
 
-Customer getCustomerByName(String name);
+	Customer getCustomerByName(String name);
 }

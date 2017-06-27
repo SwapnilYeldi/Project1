@@ -11,15 +11,16 @@ import org.springframework.stereotype.Repository;
 import com.niit.model.Category;
 
 @Repository
-public class CategoryDaoImpl implements CategoryDao{
+public class CategoryDaoImpl implements CategoryDao {
 	@Autowired
-private SessionFactory sessionFactory;
+	private SessionFactory sessionFactory;
+
 	public List<Category> getAllCategories() {
-	    Session session=sessionFactory.openSession();
-	    Query query=session.createQuery("from Category");
-	    List<Category> categories=query.list();
-	    session.close();
-	    return categories;
+		Session session = sessionFactory.openSession();
+		Query query = session.createQuery("from Category");
+		List<Category> categories = query.list();
+		session.close();
+		return categories;
 	}
 
 }

@@ -8,11 +8,6 @@ import com.niit.model.Customer;
 import com.niit.model.Product;
 
 public interface CartItemService {
-/*
-	//void addCartItem(CartItem cartItem);
-	void removeCartItem(int cartItemId);
-	void removeAllCartItems(Cart cart);*/
-	/*void addCartItem(Product product);*/
 
 	void addCartItem(Product product, Customer id);
 
@@ -24,5 +19,4 @@ public interface CartItemService {
 
 	List<CartItem> getAllCartItemById(Customer id1);
 
-	
 }

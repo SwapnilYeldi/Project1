@@ -17,39 +17,40 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
+
 @Entity
 public class Customer implements Serializable {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int id;
 	@NotEmpty
 	private String firstname;
-	
+
 	private String lastname;
-	@Column(unique=true,nullable=false)
+	@Column(unique = true, nullable = false)
 	@NotEmpty
 	@Email
 	private String email;
-	@Size(min=10,max=10)
+	@Size(min = 10, max = 10)
 	private String phone;
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="user_id")
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "user_id")
 	private Users users;
-	
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="billing_id")
+
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "billing_id")
 	private BillingAddress billingAddress;
 
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="shipping_id")
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "shipping_id")
 	private ShippingAddress shippingAddress;
 
-	@OneToOne(cascade=CascadeType.ALL)
-	@JoinColumn(name="cart_id")
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "cart_id")
 	@Valid
 	private Cart cart;
-	
-	@OneToMany(mappedBy="customer")
+
+	@OneToMany(mappedBy = "customer")
 	private List<CartItem> cartItem;
 
 	public int getId() {
@@ -131,6 +132,5 @@ public class Customer implements Serializable {
 	public void setCartItem(List<CartItem> cartItem) {
 		this.cartItem = cartItem;
 	}
-
 
 }

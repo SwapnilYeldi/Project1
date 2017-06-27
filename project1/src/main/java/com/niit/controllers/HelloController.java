@@ -14,26 +14,26 @@ import com.niit.service.CategoryService;
 public class HelloController {
 	@Autowired
 	private CategoryService categoryService;
+
 	@RequestMapping("/homePage")
-public String gethomePage(HttpSession session){
-		session.setAttribute("categories",categoryService.getAllCategories());
+	public String gethomePage(HttpSession session) {
+		session.setAttribute("categories", categoryService.getAllCategories());
 		return "Home";
 	}
-	
+
 	@RequestMapping("/aboutus")
 	public String getComboPage() {
 		return "AboutUs";
 	}
-	
+
 	@RequestMapping("/login")
-	public String login(@RequestParam(value="error",required=false) String error,
-			@RequestParam(value="logout",required=false) String logout,
-			Model model){
-		if(error!=null)
-			model.addAttribute("error","Invalid Username and Password.. Please enter valid username and password");
-		if(logout!=null)
-			model.addAttribute("logout","Loggedout successfully");
+	public String login(@RequestParam(value = "error", required = false) String error,
+			@RequestParam(value = "logout", required = false) String logout, Model model) {
+		if (error != null)
+			model.addAttribute("error", "Invalid Username and Password.. Please enter valid username and password");
+		if (logout != null)
+			model.addAttribute("logout", "Loggedout successfully");
 		return "login";
-		
+
 	}
 }

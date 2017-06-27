@@ -16,15 +16,16 @@ public class ProductDaoImpl implements ProductDao {
 	private SessionFactory sessionFactory;
 
 	public void saveOrUpdateProduct(Product product) {
-		Session session=sessionFactory.openSession();
+		Session session = sessionFactory.openSession();
 		System.out.println("PRODUCT ID BEFORE INSERTION " + product.getId());
-		//if product.getId()==0 ?  - insert into table
-		//if product.getId()!=o  ? - update table ...
+		// if product.getId()==0 ? - insert into table
+		// if product.getId()!=o ? - update table ...
 		session.saveOrUpdate(product);
 		System.out.println("PRODUCT ID AFTER INSERTION " + product.getId());
 		session.flush();
 		session.close();
 	}
+
 	public List<Product> getAllProducts() {
 		Session session = sessionFactory.openSession();
 		Query query = session.createQuery("from Product");
@@ -41,7 +42,6 @@ public class ProductDaoImpl implements ProductDao {
 		return product;
 	}
 
-	
 	public void deleteProduct(int id) {
 		Session session = sessionFactory.openSession();
 		Product product = (Product) session.get(Product.class, id);
@@ -49,7 +49,5 @@ public class ProductDaoImpl implements ProductDao {
 		session.flush();
 		session.close();
 	}
-	
-
 
 }

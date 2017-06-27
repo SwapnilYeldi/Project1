@@ -18,8 +18,7 @@
 </head>
 <body>
 	<%@ include file="Header.jsp"%>
-
-
+	
 	<div class="container wrapper" style="margin-top: 50px;">
 		<div class="container">
 			<url:url var="url" value="/admin/product/saveproduct"></url:url>

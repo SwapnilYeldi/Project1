@@ -22,24 +22,24 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 
 	private int id;
-	@NotEmpty(message="Product name is mandatory")
+	@NotEmpty(message = "Product name is mandatory")
 	private String name;
-	@NotEmpty(message="Manufacturer is not empty")
+	@NotEmpty(message = "Manufacturer is not empty")
 	private String manufacturer;
-	@Min(value=100, message="Minimum price should be 100")
+	@Min(value = 100, message = "Minimum price should be 100")
 	private double price;
-	@Min(value=1, message="Minimum unit in stock should ba 1")
+	@Min(value = 1, message = "Minimum unit in stock should be 1")
 	private int unitInStock;
-	@NotEmpty(message="Description is mandatory")
+	@NotEmpty(message = "Description is mandatory")
 	private String description;
 	@ManyToOne
-	@JoinColumn(name="cid")
+	@JoinColumn(name = "cid")
 	@NotNull(message = "Select catrgory it is mandatory")
 	private Category category;
-	
-	@OneToMany(mappedBy="product")
+
+	@OneToMany(mappedBy = "product")
 	private List<CartItem> cartItem;
-	
+
 	@Transient
 	private MultipartFile image;
 
@@ -115,6 +115,4 @@ public class Product {
 		this.cartItem = cartItem;
 	}
 
-	
-	
 }

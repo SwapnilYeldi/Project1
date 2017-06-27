@@ -4,6 +4,6 @@ import com.niit.model.Cart;
 
 public interface CartDao {
 
-Cart getCartByCartId(int cartId);
+	Cart getCartByCartId(int cartId);
 
 }
